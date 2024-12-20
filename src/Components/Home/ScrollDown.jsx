@@ -1,4 +1,5 @@
 import React from "react";
+import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 
 const ScrollDown = () => {
   return (
@@ -41,7 +42,7 @@ const ScrollDown = () => {
         </svg>
 
         <span className="home__scroll-name">Scroll Down</span>
-        <i className="uil uil-arrow-down home__scroll-arrow"></i>
+        <MdOutlineKeyboardDoubleArrowDown />
       </a>
     </div>
   );
