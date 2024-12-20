@@ -1,4 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { ImHtmlFive2 } from "react-icons/im";
+import { TfiCss3 } from "react-icons/tfi";
+import { IoLogoJavascript } from "react-icons/io";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { TbBrandGit } from "react-icons/tb";
+import { FaReact } from "react-icons/fa";
 
 const Frontend = () => {
   return (
@@ -8,7 +14,7 @@ const Frontend = () => {
         <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__data">
-                    <i className="bx bxl-html5 skills__data-icon"></i>
+                    <ImHtmlFive2 className="skills__data-icon"/>
 
                     <div>
                         <h3 className="skills__name">HTML</h3>
@@ -17,8 +23,8 @@ const Frontend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i className="bx bxl-css3 skills__data-icon"></i>
-
+                    <TfiCss3 className="skills__data-icon"/>
+                    
                     <div>
                         <h3 className="skills__name">CSS</h3>
                         <span className="skills__level">Advanced</span>
@@ -26,7 +32,7 @@ const Frontend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i className="bx bxl-javascript skills__data-icon"></i>
+                    <IoLogoJavascript className="skills__data-icon"/>
 
                     <div>
                         <h3 className="skills__name">Javascript</h3>
